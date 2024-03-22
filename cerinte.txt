@@ -1,0 +1,16 @@
+- Se cere implementarea unei structuri de tip lista. Pentru acest scop, se va crea clasa:
+ class Node cu membrii privati:
+  - info: char – caracterul de o pozitie din stiva
+  - next: Node* – pointer catre urmatorul nod din lista
+  - prev: Node* – pointer catre nodul antecedent din lista
+ Pentru clasa Node se cer constructori de initializare (cu si fara parametri), constructor de copiere,
+destructor si supraincarcarea operatorului =, precum si getteri si setteri.
+- Clasa DoubleLinkedList are ca membri privati:
+  - first: Node * - nodul care este considerat a fi primul
+  - last: Node * - nodul care este considerat a fi ultimul
+ Functionalitati:- metoda publica de adaugare a unui element pe o poziție;
+ - supraincarcare a operatorului >>, realizata prin utilizarea succesiva a metodei decarata anterior;
+ - supraincarcare a operatorului << pentru afisarea listei in ambele sensuri, in aceeasi funcție;- metoda publica de stergere a unui element de pe o poziție;- supraincarcarea operatorului +, care sa efectueze concatenarea a doua liste dublu inlantuite, rezultand
+într-o noua lista dublu inlantuita.
+- supraincarcarea operatorului -, care sa extraga din prima lista elementele gasite in a doua lista pana la
+primul element distinct. Exemplu: L1 = {1, 2, 3, 5, 6}, L2 = {1, 2, 3, 4, 5, 6}, L1 – L2 = {5, 6}
